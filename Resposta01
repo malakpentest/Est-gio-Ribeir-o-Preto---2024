@@ -1,6 +1,5 @@
 using System;
-//Valor da Variável SOMA: O trecho de código que você apresentou é um laço de repetição que incrementa a variável K até que ela atinja o valor de INDICE.
-//A cada iteração, o valor de K é somado à variável SOMA. Vamos calcular o valor final da variável SOMA:
+
 class Program
 {
     static void Main()
