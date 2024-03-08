@@ -9,12 +9,12 @@ A lendária sequência de Fibonacci, com seus números mágicos, esconde segredo
 ### 3) Complete a Lógica
 Aqui, a lógica é a chave para desbloquear os próximos elementos. Complete as sequências e revele os números ocultos. Será que você tem o raciocínio afiado o suficiente?
 
-* a) 1, 3, 5, 7, 
-* b) 2, 4, 8, 16, 32, 64, 
-* c) 0, 1, 4, 9, 16, 25, 36,
-* d) 4, 16, 36, 64, 
-* e) 1, 1, 2, 3, 5, 8,
-* f) 2, 10, 12, 16, 17, 18, 19,
+* a) 1, 3, 5, 7, ___
+* b) 2, 4, 8, 16, 32, 64, ___ 
+* c) 0, 1, 4, 9, 16, 25, 36, ___
+* d) 4, 16, 36, 64, ___
+* e) 1, 1, 2, 3, 5, 8, ___
+* f) 2, 10, 12, 16, 17, 18, 19, ____
 ### 4) O Enigma das Lâmpadas e Interruptores
 Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. O desafio? Descobrir qual interruptor controla qual lâmpada usando apenas duas idas até as salas. Prepare-se para uma investigação eletrizante!
 
