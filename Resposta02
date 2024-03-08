@@ -1,0 +1,28 @@
+using System;
+//Sequência de Fibonacci: A sequência de Fibonacci começa com os números 0 e 1, e os próximos valores são a soma dos dois valores anteriores.
+//Vamos criar um programa que verifica se um número pertence à sequência de Fibonacci:
+class Program
+{
+    static bool IsFibonacci(int num)
+    {
+        int a = 0, b = 1;
+        while (b < num)
+        {
+            int temp = a;
+            a = b;
+            b = temp + b;
+        }
+        return b == num;
+    }
+
+    static void Main()
+    {
+        Console.Write("Informe um número: ");
+        int numero = int.Parse(Console.ReadLine());
+
+        if (IsFibonacci(numero))
+            Console.WriteLine("O número pertence à sequência de Fibonacci.");
+        else
+            Console.WriteLine("O número não pertence à sequência de Fibonacci.");
+    }
+}

@@ -1,0 +1,26 @@
+using System;
+//Valor da Variável SOMA: O trecho de código que você apresentou é um laço de repetição que incrementa a variável K até que ela atinja o valor de INDICE.
+//A cada iteração, o valor de K é somado à variável SOMA. Vamos calcular o valor final da variável SOMA:
+class Program
+{
+    static void Main()
+    {
+        int INDICE = 13, SOMA = 0, K = 0;
+
+        while (K < INDICE)
+        {
+            K = K + 1;
+            SOMA = SOMA + K;
+        }
+
+        Console.WriteLine("Valor da variável SOMA: " + SOMA);
+    }
+}
+//Valor da variável SOMA: 91
+
+//Explicação:
+
+//INDICE é o número 13.
+//O laço while executa enquanto K for menor que INDICE.
+//A cada iteração, K é incrementado em 1 e adicionado à variável SOMA.
+//No final, a variável SOMA conterá a soma dos números de 1 a 13.

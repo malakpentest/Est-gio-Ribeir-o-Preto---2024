@@ -1,0 +1,30 @@
+using System;
+//Inverter uma String: Vamos criar um programa que inverte os caracteres de uma string sem usar funções prontas:
+class Program
+{
+    static string InverterString(string str)
+    {
+        char[] charArray = str.ToCharArray();
+        int left = 0, right = charArray.Length - 1;
+
+        while (left < right)
+        {
+            char temp = charArray[left];
+            charArray[left] = charArray[right];
+            charArray[right] = temp;
+            left++;
+            right--;
+        }
+
+        return new string(charArray);
+    }
+
+    static void Main()
+    {
+        Console.Write("Informe uma string: ");
+        string input = Console.ReadLine();
+
+        string reversed = InverterString(input);
+        Console.WriteLine("String invertida: " + reversed);
+    }
+}
